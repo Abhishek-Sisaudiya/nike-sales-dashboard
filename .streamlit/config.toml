@@ -1,0 +1,23 @@
+# Streamlit theme and settings.
+# Most colours live here (not in CSS) so Streamlit's own layout stays untouched.
+
+[theme]
+base = "light"
+primaryColor = "#2563EB"
+backgroundColor = "#F3F5F8"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#111827"
+borderColor = "#E3E7ED"
+baseRadius = "0.75rem"
+font = "Arial, Helvetica, sans-serif"
+
+[theme.sidebar]
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F3F5F8"
+borderColor = "#E3E7ED"
+
+[client]
+toolbarMode = "minimal"
+
+[browser]
+gatherUsageStats = false
